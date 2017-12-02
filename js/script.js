@@ -11,7 +11,7 @@ $(function(){
       document.addEventListener("gesturestart", gestureStart, false);
     }
   };
-  
+
   scaleFix();
   // Menu Android
   if(window.orientation!=undefined){
@@ -28,7 +28,7 @@ $(function(){
        window.location.href = $(this).attr("href");
       }
      );
-    } 
+    }
    })
   }
  }
@@ -58,10 +58,3 @@ var currentYear = (new Date).getFullYear();
 function include(url){document.write('<script type="text/javascript" src="'+url+'"></script>')}
 include('js/device.js');
 include('js/jquery.mousewheel.js');
-include('js/jquery.simplr.smoothscroll.js');
-
-  $(function () { 
-    if ($('html').hasClass('desktop')) {
-        $.srSmoothscroll();
-    }
-  });
