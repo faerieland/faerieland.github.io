@@ -7,6 +7,12 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300italic);
 @import url(//fonts.googleapis.com/css?family=Roboto+Condensed:400);
 @import url(//fonts.googleapis.com/css?family=Roboto+Condensed:300);
+div.blog img.img_inner.fleft {
+  border-radius: 50%;
+  width: auto !important;
+  float: left;
+  margin-right: 30px;
+}
 .navigation {
   z-index: 999;
   position: relative;
@@ -314,24 +320,6 @@ a:hover {
 }
 .pad0 {
   padding: 0 !important;
-}
-.img_inner {
-  max-width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin-bottom: 10px;
-  margin-top: 4px;
-}
-.img_inner.fleft {
-  float: left;
-  width: auto !important;
-  margin-right: 30px;
-  margin-bottom: 0px;
-}
-.img_inner.fleft.noresize {
-  margin-right: 20px;
-  margin-top: 5px;
 }
 .img_fright {
   position: relative;
