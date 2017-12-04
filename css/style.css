@@ -80,7 +80,7 @@ div.blog img.img_inner.fleft {
 .sf-menu > li.sfHover > a,
 .sf-menu > li.current > a,
 .sf-menu > li > a:hover {
-  color: #00b1ba;
+  color: #000000;
 }
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 767px) {
@@ -141,7 +141,7 @@ div.blog img.img_inner.fleft {
 }
 @media only screen and (min-width: 979px) {
   .isStuck {
-    background-color: #000;
+    background-color: #00b1ba;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
   }
 }
@@ -217,7 +217,7 @@ h6 {
   font-family: 'Roboto Condensed', sans-serif;
 }
 h2 {
-  color: #00b1ba;
+  color: #E6E5E5;
   font-size: 40px;
   line-height: 60px;
   margin-top: -10px;
@@ -377,8 +377,7 @@ header {
   display: block;
   position: relative;
   z-index: 999;
-  padding: 18px 0 77px;
-  background: url(../images/slide.jpg) center 0 no-repeat;
+  padding: 18px 0 0px;
 }
 header .rel {
   z-index: 999;
